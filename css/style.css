@@ -1,0 +1,549 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+img{
+    border: 0;
+}
+
+body{
+    line-height: normal;
+    font-family: 'Open Sans', sans-serif;
+}
+
+ol,ul{
+    list-style: none;
+}
+
+a,
+a:hover,
+a:focus{
+    text-decoration: none;
+    outline: 0;
+}
+
+/*==============================
+        common css end
+================================*/
+.navbar {
+    background:rgba(0,0,0,0.3);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 9999;
+    padding: 0;
+    
+}
+
+
+.sticky{
+    background:#02918c;
+    position: fixed;
+    border-bottom: 4px solid #FF0000;
+    transition: all linear 0.3s;
+
+}
+
+
+.navbar-light .navbar-nav .nav-link{
+    padding: 30px 0;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 800;
+    color: #fff;
+    transition: all linear 0.3s;
+    position: relative;
+}
+
+
+
+
+ .navbar-light .navbar-nav .nav-item .nav-link::before {
+    position: absolute;
+    content: " ";
+    width: 100%;
+    height: 0%;
+    background: #cfc91d;
+    z-index: -22;
+    top: 0px;
+    left: 0;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+    transition: all linear .3s;
+} 
+
+
+
+.navbar-light .navbar-nav .nav-item .nav-link.active::before {
+    position: absolute;
+    content: " ";
+    width: 100%;
+    height: 100%;
+    background: #cfc91d;
+    z-index: -22;
+    top: 0px;
+    left: 0;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+    transition: all linear .3s;
+}
+
+
+
+
+.navbar-light .navbar-nav .nav-item .nav-link:hover::before {
+    position: absolute;
+    content: " ";
+    width: 100%;
+    height: 100%;
+    background: #cfc91d;
+    z-index: -22;
+    top: 0px;
+    left: 0;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+    transition: all linear .3s;
+
+}
+
+
+ .navbar-light .navbar-nav .nav-item .nav-link.active {
+    color: #222222;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+    transition: all linear .3s;
+}
+
+
+
+.navbar-light .navbar-nav .nav-item .nav-link:hover {
+    color: #222222;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+    transition: all linear .3s;
+} 
+
+
+/*===========================
+        Nav Section End
+=============================*/
+
+#banner_sec{
+    background: url(../images/Banner.jpg) no-repeat center;
+    background-size: cover;
+    color: #fff;
+}
+
+#banner_sec p{
+    font-size: 30px;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 2px;
+    padding-top: 244px;
+    line-height: 22px;
+}
+
+#banner_sec h1{
+    font-size: 68px;
+    font-weight: 800;
+    letter-spacing: 28px;
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#banner_sec h5{
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 1px;
+    line-height: 22px;
+}
+
+#banner_sec img{
+    padding: 57px 0px;
+}
+
+#banner_sec h6{
+    display:block;
+    padding-bottom: 240px;
+}
+
+#banner_sec h6 a{
+    background: #cfc91d;
+    color: #0b1016;
+    font-size: 14px;
+    font-weight: 800;
+    text-transform: uppercase;
+    padding: 19px 45px;
+    display:inline-block;
+    letter-spacing: 3px;
+    font-family: 'Open Sans', sans-serif;
+    transition: all linear 0.3s;
+} 
+
+#banner_sec h6 a:hover{
+    background: #ffffff;
+    
+} 
+/*===========================
+     Banner Section End
+=============================*/
+
+#about_sec{
+    padding: 100px 0px;
+}
+
+#about_sec .text-aria h2{
+    font-size: 46px;
+    font-weight: 800;
+    color: #02918c;
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+    padding-bottom: 15px; 
+}
+
+
+#about_sec .text-aria span{
+    color: #7e8287;
+    font-size: 16px;
+
+}
+
+
+#about_sec .text-aria p{
+    font-size: 16px;
+    color: #7e8287;
+    font-weight: 400;
+    padding-top: 15px;
+    line-height: 41px;
+    padding-top: 20px; 
+    
+    
+}
+
+
+#about_sec .text-aria strong{
+    font-size: 23px;
+    font-weight: 800;
+    color: #7e8287;
+}
+
+#about_sec .icon-part{
+    margin-top: 75px;
+}
+
+#about_sec .icon-part h3{
+    font-size: 16px;
+    font-weight: 800;
+    font-family: 'Open Sans', sans-serif;
+    color: #7e8287;
+    padding: 30px 0px;
+    
+
+}
+
+#about_sec .icon-part p{
+    color: #7e8287;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 21px;
+    padding: 0px 45px;
+}
+
+
+#about_sec .col-lg-3{
+    border-right: 1px solid #d9dbdb;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+#about_sec .col-lg-3:last-child{
+    border-right: 0px;
+}
+/*===========================
+     About Section End
+=============================*/
+
+#service_sec{
+    position: relative;
+    padding-bottom: 75px;
+}
+
+
+#service_sec:after{
+    position:absolute;
+    content: '';
+    width: 50%;
+    height: 100%;
+    background: url(../images/service-bg.jpg) no-repeat center;
+    background-size: cover;
+    right: 0px;
+    top: 0px;
+    z-index: -1;
+}
+
+#service_sec:before{
+    position: absolute;
+    content: '';
+    width: 50%;
+    height: 100%;
+    background: #F0F0E8;
+    background-size: cover;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+}
+
+#service_sec{
+    
+}
+#service_sec .text-aria h2{
+    padding-top: 75px;
+    color: #02918c;
+    font-size: 46px;
+    font-weight: 800;
+    text-transform: uppercase;
+    font-family:'Open Sans', sans-serif;
+    padding-bottom: 15px; 
+}
+
+#service_sec .text-aria span{
+    color: #7e8287;
+    font-size: 16px;
+}
+
+
+#service_sec .text-aria p{
+    color: #7e8287;
+    font-size: 16px;
+    line-height: 41px;
+    padding-top: 20px;
+}
+
+#service_sec .icon{
+    padding-top: 60px;
+}
+
+#service_sec .icon h4{
+    color: #7e8287;
+    font-size: 16px;
+    font-weight: 800;
+    padding: 20px 0px;
+}
+
+#service_sec .icon p{
+    font-size: 11px;
+    color: #7e8287;
+}
+/*===========================
+    Service Section end
+=============================*/
+
+#portfolio_sec{
+    padding-top: 100px;
+    padding-bottom: 82px;
+}
+
+#portfolio_sec .text-aria h2{
+    font-size: 46px;
+    font-weight: 800;
+    font-family:'Open Sans', sans-serif; 
+    color: #02918c;
+    padding-bottom: 15px;
+}
+
+#portfolio_sec .text-aria span{   
+    font-size: 16px;
+    color: #7e8287;
+}
+
+
+#portfolio_sec .text-aria p{
+    color: #7e8287;
+    font-size: 16px;
+    font-weight: 400;
+    padding-top: 20px;
+    line-height: 41px;
+    
+}
+
+#portfolio_sec .gallery ul{
+    padding-top: 70px;
+}
+
+#portfolio_sec .gallery ul li{
+    float: left;
+    width: 25%;
+    position: relative;
+    overflow: hidden;
+    
+    
+}
+
+#portfolio_sec .gallery ul li img{
+    width: 100%;
+}
+
+#portfolio_sec .overlay{
+    position: absolute;
+    top: -102%;
+    left: 10%;
+    background: rgba(0, 242, 223,0.60);
+    width: 80%;
+    height: 80%;
+    text-align: center;
+    transition: all linear 0.3s;
+} 
+#portfolio_sec .overlay h4{
+    font-weight: 800;
+    font-size: 16px;
+    padding: 50px 0px 6px;
+    color: #fff;
+}
+
+#portfolio_sec .overlay p{
+    font-size: 13px;
+    font-weight: 600;
+    color: #fff;
+}
+#portfolio_sec ul li:hover .overlay{
+    top: 10%;
+}
+/*===========================
+    Portfolio Section end
+=============================*/
+#contact_sec{
+    padding-top: 100px;        
+}
+
+#contact_sec .text-aria h2{
+    font-size: 46px;
+    font-weight: 800;
+    font-family:'Open Sans', sans-serif; 
+    color: #02918c;
+    padding-bottom: 15px;
+}
+#contact_sec .text-aria span{
+    font-size: 16px;
+    color: #7e8287;
+}
+
+#contact_sec .text-aria p{
+    color: #7e8287;
+    font-size: 16px;
+    font-weight: 400;
+    padding-top: 20px;
+    padding-bottom: 70px;
+    line-height: 41px;
+}
+
+#contact_sec .contact_field{
+    background: #0b0b0b;
+    text-align: center;
+    padding: 10px 0px;
+}
+
+#contact_sec .contact_field .fields{
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    border-bottom: 1px solid #898989;
+    border-left: 0px;
+    border-right: 0px;
+    border-top: 0px;
+    background: none;
+    margin-top: 40px;
+    color: #fff;
+}
+
+#contact_sec .contact_field textarea{
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    border-bottom: 1px solid #898989;
+    border-left: 0px;
+    border-right: 0px;
+    border-top: 0px;
+    background: none;
+    margin-top: 30px;
+    color: #fff;
+    resize: none;
+}
+
+#contact_sec .message{ 
+    padding-left: 40px;
+    padding-right: 40px;  
+}
+
+#contact_sec .btn-send{ 
+    background: #cfc91d;
+    color: #0b1016;
+    font-size: 16px;
+    font-weight: 800;
+    padding: 16px 60px;
+    border: 0px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+}
+
+#contact_sec .btn-send:hover{
+    background: #fffefe;
+}
+
+
+#contact_sec  .copy-right{
+    background: #000;
+    text-align: center;
+}
+#contact_sec  .copy-right small{
+    color: #909090;
+    text-align: center;
+    line-height: 60px;
+}
+/*===============================
+        contact sec end
+=================================*/
+
+.top_to_button{
+    
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #02918c none repeat scroll 0 0;
+    color: #fff;
+    text-align: center;
+    line-height: 36px;
+    font-size: 20px;
+    cursor: pointer;
+    position: fixed;
+    right: 30px;
+    bottom: 50px;
+    z-index: 99999999;
+ transition: all .3s ease 
+}
+
+/*============================
+        Scroll to up
+==============================*/
+.scrollup i{
+    transition: all .3s ease
+}
+
+.top_to_button:hover {
+     box-shadow: 0px 15px 15px 0 rgba(0, 0, 0, .2);
+     transform: translateY(-10px);
+}
